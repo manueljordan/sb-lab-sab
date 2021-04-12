@@ -1,0 +1,31 @@
+= Manuel Jordan [Spring Boot Demo]
+
+Spring Boot application working with the integration
+of many technologies according the layer. In this project
+is highlight the support of Spring Boot for _developing_
+and _monitoring_ through specific tools.
+
+== Topics covered
+
+* Application Layers
+* Spring Boot DevTools
+* Spring Boot Actuator
+* Spring Test
+* Spring Boot Testing
+* Spring MVC Testing
+* Integration Testing
+* Slice Testing
+
+== Technologies
+
+* Spring Framework
+** Spring Web MVC
+** Spring Test
+* Spring Boot
+** DevTools
+** Actuator
+* Spring Data JPA
+* H2
+* Thymeleaf
+* JUnit
+* AssertJ

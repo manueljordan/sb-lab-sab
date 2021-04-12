@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Inicio</title>
+</head>
+
+<body>
+	<h1>Escenarios</h1>
+	<h2>H2</h2>
+	<ul>
+		<li><a th:href="@{/h2-web-console}" th:target="_blank" th:text="'H2 Web Console'">H2_WEB_CONSOLE_LINK</a></li>
+	</ul>
+	<h2>Reporte</h2>
+	<ul>
+		<li><a th:href="@{/personas}" th:text="personas">FIND_ALL_LINK</a></li>
+		<li><a th:href="@{/personas.json}" th:target="_blank" th:text="'personas (json)'">FIND_ALL_LINK</a></li>
+	</ul>
+	<br />
+	<h2>Actuator</h2>
+	<ul>
+		<li><a th:href="@{/actuator}" th:target="_blank" th:text="actuator">ACTUATOR_LINK</a></li>
+	</ul>
+</body>
+
+</html>
